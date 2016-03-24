@@ -12,7 +12,7 @@
 // https://developers.google.com/accounts/docs/OAuth2
 // and
 // https://developers.google.com/accounts/docs/application-default-credentials.
-package google // import "golang.org/x/oauth2/google"
+package google
 
 import (
 	"encoding/json"
@@ -23,7 +23,7 @@ import (
 
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/jwt"
-	"google.golang.org/cloud/compute/metadata"
+	"gopkg.in/streamrail/cloud/compute/metadata.bc8bf40d2ea40ff550f5471f52b9398f96b38ebe"
 )
 
 // Endpoint is Google's OAuth 2.0 endpoint.
