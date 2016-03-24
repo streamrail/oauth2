@@ -21,8 +21,8 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/oauth2"
-	"golang.org/x/oauth2/jwt"
+	"github.com/streamrail/oauth2"
+	"github.com/streamrail/oauth2/jwt"
 	"github.com/streamrail/gcloud-golang/compute/metadata"
 )
 
