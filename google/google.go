@@ -23,7 +23,7 @@ import (
 
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/jwt"
-	"github.com/streamrail/cloud/compute/metadata"
+	"github.com/streamrail/gcloud-golang/compute/metadata"
 )
 
 // Endpoint is Google's OAuth 2.0 endpoint.
