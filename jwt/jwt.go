@@ -20,8 +20,8 @@ import (
 
 	"golang.org/x/net/context"
 	"golang.org/x/oauth2"
-	"golang.org/x/oauth2/internal"
-	"golang.org/x/oauth2/jws"
+	"github.com/streamrail/oauth2/internal"
+	"github.com/streamrail/oauth2/jws"
 )
 
 var (
