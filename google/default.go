@@ -15,9 +15,9 @@ import (
 	"runtime"
 
 	"golang.org/x/net/context"
-	"golang.org/x/oauth2"
-	"golang.org/x/oauth2/jwt"
-	"google.golang.org/cloud/compute/metadata"
+	"github.com/streamrail/oauth2"
+	"github.com/streamrail/oauth2/jwt"
+	"github.com/streamrail/gcloud-golang/compute/metadata"
 )
 
 // DefaultClient returns an HTTP Client that uses the
