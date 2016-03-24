@@ -18,7 +18,7 @@ import (
 
 	"golang.org/x/net/context"
 	"github.com/streamrail/oauth2"
-	"github.com/streamrail/oauth/internal"
+	"github.com/streamrail/oauth2/internal"
 )
 
 type sdkCredentials struct {
